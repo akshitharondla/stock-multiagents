@@ -22,9 +22,10 @@ This project is an AI-based multi-agent system for analyzing and acting on stock
 3. Install dependencies
    pip install -r stock_agent/requirements.txt
 4. Create a .env file inside stock_agent/
-   API_KEY=your_api_key_here
+   ALPHAVANTAGE_API_KEY=your_api_key
+   NEWS_API_KEY=your_api_key
 
 USAGE
 
-python stock_agent/main.py
+python stock_agent/agent.py
 
